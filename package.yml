@@ -1,0 +1,20 @@
+name       : plotinus
+version    : 0.2.0
+release    : 1
+source     :
+    - https://github.com/p-e-w/plotinus/archive/v0.2.0.tar.gz : 6d814d19e6868f3d52ecd923ad6da465c632bb5dfcdc97c5245ad107e582c33b
+license    : GPL-3.0
+component  : desktop.gnome
+libsplit   : no
+summary    : A searchable command palette in every modern GTK+ application
+description: |
+    A searchable command palette in every modern GTK+ application
+builddeps  :
+    - pkgconfig(gtk+-3.0)
+    - vala
+setup      : |
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install

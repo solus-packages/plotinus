@@ -20,13 +20,13 @@
         <PartOf>desktop.gnome</PartOf>
         <Files>
             <Path fileType="library">/usr/lib/lib*.so</Path>
-            <Path fileType="data">/usr/share/defaults/etc/profile.d/50-plotinus.sh</Path>
+            <Path fileType="data">/usr/share/defaults/etc/profile.d/70-plotinus.sh</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/com.worldwidemann.plotinus.gschema.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-05-09</Date>
+        <Update release="3">
+            <Date>2017-07-02</Date>
             <Version>0.2.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>

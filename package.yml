@@ -1,6 +1,6 @@
 name       : plotinus
 version    : 0.2.0
-release    : 2
+release    : 3
 source     :
     - https://github.com/p-e-w/plotinus/archive/v0.2.0.tar.gz : 6d814d19e6868f3d52ecd923ad6da465c632bb5dfcdc97c5245ad107e582c33b
 license    : GPL-3.0
@@ -19,4 +19,4 @@ build      : |
 install    : |
     %make_install
     install -dm00755 $installdir/usr/share/defaults/etc/profile.d
-    install -Dm00644 $pkgfiles/50-plotinus.sh $installdir/usr/share/defaults/etc/profile.d/50-plotinus.sh
+    install -Dm00644 $pkgfiles/70-plotinus.sh $installdir/usr/share/defaults/etc/profile.d/70-plotinus.sh

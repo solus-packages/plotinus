@@ -1,6 +1,6 @@
 name       : plotinus
 version    : 0.2.0
-release    : 3
+release    : 4
 source     :
     - https://github.com/p-e-w/plotinus/archive/v0.2.0.tar.gz : 6d814d19e6868f3d52ecd923ad6da465c632bb5dfcdc97c5245ad107e582c33b
 license    : GPL-3.0
